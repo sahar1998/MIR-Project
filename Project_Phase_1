@@ -11,7 +11,7 @@ from nltk.corpus import stopwords
 persian_text = ""
 tree = ET.parse('Persian.xml')
 root = tree.getroot()
-documents_list = []
+persian_documents_list = []
 for page in root:
     page_text = ""
     for text in page[3]:
@@ -19,16 +19,19 @@ for page in root:
         if (txt != None):
             persian_text += txt
             page_text += txt
-    documents_list.append(page_text)
+    persian_documents_list.append(page_text)
 
 
 
 # reading english text from file
 english_text = ""
+english_document_list = []
 with open('English.csv', 'r') as f:
     reader = csv.reader(f)
     for row in reader:
+        english_document_list.append(row)
         english_text += " ".join(row)
+    print(english_document_list)
 
 
 def pre_process_english(english_text):
