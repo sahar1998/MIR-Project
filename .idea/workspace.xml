@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69957c56-72f2-4502-b273-113942f37151" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/part1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MIR_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MIR_Project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Phase_1" beforeDir="false" />
-    </list>
+    <list default="true" id="69957c56-72f2-4502-b273-113942f37151" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="part1.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="part1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/part1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="127" column="23" lean-forward="true" selection-start-line="127" selection-start-column="23" selection-end-line="127" selection-end-column="23" />
+            <state relative-caret-position="-9">
+              <caret line="116" column="46" lean-forward="true" selection-start-line="116" selection-start-column="46" selection-end-line="116" selection-end-column="46" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -63,9 +53,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="part2.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="part2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/part2.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="87" column="22" lean-forward="true" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="part3.py" pinned="false" current-in-tab="false">
@@ -107,6 +104,7 @@
         <option value="$PROJECT_DIR$/part4.py" />
         <option value="$PROJECT_DIR$/part1.py" />
         <option value="$PROJECT_DIR$/part5.py" />
+        <option value="$PROJECT_DIR$/part2.py" />
       </list>
     </option>
   </component>
@@ -247,7 +245,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1293" height="698" extended-state="7" />
+    <frame x="-6" y="-6" width="1293" height="698" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -357,9 +355,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/part2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/part3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
@@ -369,10 +364,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/part1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="127" column="23" lean-forward="true" selection-start-line="127" selection-start-column="23" selection-end-line="127" selection-end-column="23" />
+        <state relative-caret-position="-9">
+          <caret line="116" column="46" lean-forward="true" selection-start-line="116" selection-start-column="46" selection-end-line="116" selection-end-column="46" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="87" column="22" lean-forward="true" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
