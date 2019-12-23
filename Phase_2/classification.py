@@ -211,7 +211,7 @@ def Naive_bayesian (train_document_list, test_document_list):
 Naive_bayesian(train_document_list[1:300], test_document_list[1:20])
 
 def KNN(train_document_list, test_document_list, k):
-
+    classes = []
     classification_correct = 0
     for test_document in test_document_list:
         knn = part5.compute_cosine_phase_2(test_document[2], train_document_list, k)
@@ -219,12 +219,13 @@ def KNN(train_document_list, test_document_list, k):
         count = [0 for _ in range(4)]
         for train_document in knn:
             count[int(train_document[0]) - 1] += 1
-        print(count.index(max(count)))
-        if count.index(max(count)) + 1 == int(test_document[0]):
-            classification_correct +=1
+        # print(count.index(max(count)))
+        classes.append(count.index(max(count)) + 1)
+        # if count.index(max(count)) + 1 == int(test_document[0]):
+        #     classification_correct +=1
 
-    print(classification_correct / len(test_document_list))
-
+    # print(classification_correct / len(test_document_list))
+    return classes
 
 # KNN(train_document_list[1:500], test_document_list[1:10], 9)
 
@@ -266,7 +267,8 @@ def SVM (train_document_list, test_document_list):
     # predict the labels on validation dataset
     predictions_SVM = SVM.predict(test_x_tfidf)
     # Use accuracy_score function to get the accuracy
-    print("SVM Accuracy Score -> ", accuracy_score(predictions_SVM, test_y) * 100)
+    # print("SVM Accuracy Score -> ", accuracy_score(predictions_SVM, test_y) * 100)
+    return predictions_SVM
 
 # SVM(train_document_list[1:1000], test_document_list[1:100])
 
@@ -308,6 +310,7 @@ def random_forest (train_document_list, test_document_list):
     classifier = RandomForestClassifier(n_estimators=1000, random_state=0)
     classifier.fit(train_x_tfidf, train_y)
     prediction = classifier.predict(test_x_tfidf)
-    print(accuracy_score(test_y, prediction))
+    return prediction
+    # print(accuracy_score(test_y, prediction))
 
 # random_forest(train_document_list[1:700], test_document_list[1:20])
