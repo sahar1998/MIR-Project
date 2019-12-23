@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69957c56-72f2-4502-b273-113942f37151" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Phase_2/evaluate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MIR_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MIR_Project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phase_2/classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/Phase_2/classification.py" afterDir="false" />
-    </list>
+    <list default="true" id="69957c56-72f2-4502-b273-113942f37151" name="Default" comment="evaluation of algorithms and reports added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -167,34 +161,50 @@
       <option name="presentableId" value="Default" />
       <updated>1574927173962</updated>
       <workItem from="1577131287440" duration="741000" />
-      <workItem from="1577132091229" duration="3874000" />
+      <workItem from="1577132091229" duration="4190000" />
     </task>
+    <task id="LOCAL-00001" summary="evaluation of algorithms and reports added">
+      <created>1577136232219</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577136232219</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="evaluation of algorithms and reports added" />
+    <option name="LAST_COMMIT_MESSAGE" value="evaluation of algorithms and reports added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="319" y="0" key="#evaluate" timestamp="1577131976094">
       <screen x="0" y="0" width="1280" height="685" />
     </state>
     <state x="319" y="0" key="#evaluate/0.0.1280.685@0.0.1280.685" timestamp="1577131976094" />
-    <state width="1225" height="168" key="GridCell.Tab.0.bottom" timestamp="1577135808809">
+    <state x="224" y="0" key="CommitChangelistDialog2" timestamp="1577136293708">
       <screen x="0" y="0" width="1280" height="685" />
     </state>
-    <state width="1225" height="168" key="GridCell.Tab.0.bottom/0.0.1280.685@0.0.1280.685" timestamp="1577135808809" />
-    <state width="1225" height="168" key="GridCell.Tab.0.center" timestamp="1577135808808">
+    <state x="224" y="0" key="CommitChangelistDialog2/0.0.1280.685@0.0.1280.685" timestamp="1577136293708" />
+    <state width="1225" height="53" key="GridCell.Tab.0.bottom" timestamp="1577136236864">
       <screen x="0" y="0" width="1280" height="685" />
     </state>
-    <state width="1225" height="168" key="GridCell.Tab.0.center/0.0.1280.685@0.0.1280.685" timestamp="1577135808808" />
-    <state width="1225" height="168" key="GridCell.Tab.0.left" timestamp="1577135808808">
+    <state width="1225" height="53" key="GridCell.Tab.0.bottom/0.0.1280.685@0.0.1280.685" timestamp="1577136236864" />
+    <state width="1225" height="53" key="GridCell.Tab.0.center" timestamp="1577136236864">
       <screen x="0" y="0" width="1280" height="685" />
     </state>
-    <state width="1225" height="168" key="GridCell.Tab.0.left/0.0.1280.685@0.0.1280.685" timestamp="1577135808808" />
-    <state width="1225" height="168" key="GridCell.Tab.0.right" timestamp="1577135808808">
+    <state width="1225" height="53" key="GridCell.Tab.0.center/0.0.1280.685@0.0.1280.685" timestamp="1577136236864" />
+    <state width="1225" height="53" key="GridCell.Tab.0.left" timestamp="1577136236863">
       <screen x="0" y="0" width="1280" height="685" />
     </state>
-    <state width="1225" height="168" key="GridCell.Tab.0.right/0.0.1280.685@0.0.1280.685" timestamp="1577135808808" />
+    <state width="1225" height="53" key="GridCell.Tab.0.left/0.0.1280.685@0.0.1280.685" timestamp="1577136236863" />
+    <state width="1225" height="53" key="GridCell.Tab.0.right" timestamp="1577136236864">
+      <screen x="0" y="0" width="1280" height="685" />
+    </state>
+    <state width="1225" height="53" key="GridCell.Tab.0.right/0.0.1280.685@0.0.1280.685" timestamp="1577136236864" />
     <state x="30" y="0" key="SettingsEditor" timestamp="1577132028952">
       <screen x="0" y="0" width="1280" height="685" />
     </state>
