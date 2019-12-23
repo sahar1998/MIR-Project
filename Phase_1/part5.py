@@ -38,7 +38,7 @@ def compute_idf(documents, unique_words):
             if val > 0:
                 idfDict[word] += 1
     for word, val in idfDict.items():
-        idfDict[word] = math.log(N / float(val))
+        idfDict[word] = math.log(N / float(val + 1))
     return idfDict
 
 
@@ -55,7 +55,7 @@ test_document_list = ['the man went out for a walk', 'the children sat around th
 # print(english_document_list)
 
 
-def compute_cosine(query, document_list):
+def compute_cosine(query, document_list, k):
     document_dict_list = []
     unique_words = []
     for document in document_list:
@@ -85,9 +85,46 @@ def compute_cosine(query, document_list):
         cosine.append(similarity)
 
     answer = []
-    k = 10
     cosine = np.array(cosine)
     ind = cosine.argsort()[-k:]  # index of the k highest elements
     for index in ind:
         answer.append(document_list[index])
-    print(answer)
+    return answer
+
+
+# compute cosine for phase_2
+def compute_cosine_phase_2(query, document_list, k):
+    document_dict_list = []
+    unique_words = []
+    for document in document_list:
+        document_text = document[1] + " " + document[2]
+        unique_words = set(unique_words).union(set(nltk.word_tokenize(document_text)))
+    unique_words = unique_words.union(set(nltk.word_tokenize(query)))
+
+    for document in document_list:
+        document_text = document[1] + " " + document[2]
+        document_dict_list.append(make_dict(document_text, unique_words))
+
+    query_tf = compute_tf(make_dict(query, set(nltk.word_tokenize(query))), query)
+    query_idf = compute_idf(document_dict_list, set(nltk.word_tokenize(query)).union(unique_words))
+    query_tfidf = compute_tfidf(query_tf, query_idf)
+
+    idfs = compute_idf(document_dict_list, unique_words)
+
+    cosine = []
+    for document in document_list:
+        document_text = document[1] + " " + document[2]
+        similarity = 0
+        tfidf = compute_tfidf(compute_tf(make_dict(document_text, unique_words), document_text), idfs)
+        for word1 in query_tfidf:
+            for word2 in tfidf:
+                if (word1 == word2):
+                    similarity += query_tfidf[word1] * tfidf[word2]
+        cosine.append(similarity)
+
+    answer = []
+    cosine = np.array(cosine)
+    ind = cosine.argsort()[-k:]  # index of the k highest elements
+    for index in ind:
+        answer.append(document_list[index])
+    return answer
