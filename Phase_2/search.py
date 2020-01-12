@@ -2,7 +2,9 @@ import csv
 
 import nltk
 
-from Phase_1 import part5
+from . import part5
+
+
 
 def Naive_bayesian (train_document_list, test_document_list):
 
