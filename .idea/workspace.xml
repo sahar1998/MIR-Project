@@ -1,23 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69957c56-72f2-4502-b273-113942f37151" name="Default" comment="evaluation of algorithms and reports added">
-      <change afterPath="$PROJECT_DIR$/Phase_3/Data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Phase_3/GMM.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Phase_3/Hierarchical Processing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Phase_3/KMeans.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Phase_3/W2V-GMM.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Phase_3/W2V-KMeans.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Phase_3/crawling.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Phase_3/page_rank.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Phase_3/papers_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Phase_3/sample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Phase_3/start.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Phase_3/tfidf-GMM.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Phase_3/tfidf-HierProc.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Phase_3/tfidf-KMeans.csv" afterDir="false" />
+    <list default="true" id="69957c56-72f2-4502-b273-113942f37151" name="Default" comment="phase 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phase_2/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/Phase_2/search.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,7 +248,7 @@
       <workItem from="1578527334201" duration="3961000" />
       <workItem from="1578568854619" duration="6191000" />
       <workItem from="1578659150210" duration="27012000" />
-      <workItem from="1578763899872" duration="2691000" />
+      <workItem from="1578763899872" duration="3431000" />
     </task>
     <task id="LOCAL-00001" summary="evaluation of algorithms and reports added">
       <created>1577136232219</created>
@@ -286,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577136426893</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="phase 3">
+      <created>1578821744849</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578821744849</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,7 +286,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="evaluation of algorithms and reports added" />
-    <option name="LAST_COMMIT_MESSAGE" value="evaluation of algorithms and reports added" />
+    <MESSAGE value="phase 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="phase 3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="134" y="0" key="#Inspections" timestamp="1578701358956">
@@ -309,10 +302,10 @@
       <screen x="0" y="0" width="1280" height="685" />
     </state>
     <state x="319" y="0" key="#evaluate/0.0.1280.685@0.0.1280.685" timestamp="1577131976094" />
-    <state x="224" y="0" key="CommitChangelistDialog2" timestamp="1577136425921">
+    <state x="224" y="0" key="CommitChangelistDialog2" timestamp="1578821743755">
       <screen x="0" y="0" width="1280" height="685" />
     </state>
-    <state x="224" y="0" key="CommitChangelistDialog2/0.0.1280.685@0.0.1280.685" timestamp="1577136425921" />
+    <state x="224" y="0" key="CommitChangelistDialog2/0.0.1280.685@0.0.1280.685" timestamp="1578821743755" />
     <state width="1225" height="3" key="GridCell.Tab.0.bottom" timestamp="1578769838372">
       <screen x="0" y="0" width="1280" height="685" />
     </state>
